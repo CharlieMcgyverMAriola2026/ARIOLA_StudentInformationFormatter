@@ -1,0 +1,8 @@
+name = input("Enter student name: ").strip().title()
+course = input("Enter course: ").strip().upper()
+year = input("Enter year level: ").strip()
+
+print("\n--- STUDENT INFORMATION ---")
+print(f"Name   : {name}")
+print(f"Course : {course}")
+print(f"Year   : {year}")
